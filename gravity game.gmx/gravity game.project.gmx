@@ -5,9 +5,28 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_ship</sprite>
+    <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_blackhole</sprite>
+    <sprite>sprites\spr_missile</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_stars</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_ship</object>
+    <object>objects\obj_bullet</object>
+    <object>objects\obj_par_blackhole</object>
+    <object>objects\obj_par_bullet</object>
+    <object>objects\obj_blackhole</object>
+    <object>objects\obj_missile</object>
+    <object>objects\obj_missileshooter</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
